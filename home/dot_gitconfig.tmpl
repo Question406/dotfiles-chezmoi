@@ -5,18 +5,18 @@ email = {{ .email }}
 [core]
 editor = {{ .editor }}
 
-[difftool "vscode"]
+[difftool "vim"]
 cmd = code --wait --diff $LOCAL $REMOTE
 
-[mergetool "vscode"]
+[mergetool "vim"]
 cmd = code --wait $MERGED
 
 [diff]
-tool = vscode
+tool = vim
 
 [merge]
 autoStash = true
-tool = vscode
+tool = vim
 
 [rebase]
 autoStash = true

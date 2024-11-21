@@ -119,6 +119,7 @@ plugins=(
   zsh-autosuggestions
   my-completions
   z
+  vim
   )
 
 # https://github.com/zsh-users/zsh-completions/issues/603
