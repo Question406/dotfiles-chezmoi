@@ -7,6 +7,11 @@
 true || source ../.chezmoitemplates/scripts-library
 true || source ../.chezmoitemplates/homebrew-library
 
+if ! command -v brew &>/dev/null; then
+  echo "Homebrew is not installed. Exiting."
+  exit 0
+fi
+
 function is_root_homebrew_prefix_writable() {
   if [[ -d "${root_homebrew_prefix}" ]]; then
     return 0

@@ -118,6 +118,7 @@ plugins=(
   zsh-syntax-highlighting
   zsh-autosuggestions
   my-completions
+  z
   )
 
 # https://github.com/zsh-users/zsh-completions/issues/603
